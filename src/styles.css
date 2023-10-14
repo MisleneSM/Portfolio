@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Prompt:wght@100&family=Sunflower:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --CorPrimaria:#54F5FF;
+    --CorSecundaria: #fff;
+    --CorTerciaria: #000000;
+
+    --Font: 'Lato', 'Sunflower' , sans-serif;
+}
+
+body {
+    background: rgba(0, 0, 0, 1);
+}

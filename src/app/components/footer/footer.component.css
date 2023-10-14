@@ -1,0 +1,25 @@
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    height: 25px;
+    background-color: var(--CorPrimaria);
+    font-family: var(--Font);
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+p a {
+    color: var(--CorTerciaria);
+    text-decoration: none;
+}
+
+p a:hover {
+    color: var(--CorSecundaria);
+}

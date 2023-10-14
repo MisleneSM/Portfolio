@@ -1,0 +1,39 @@
+header {
+    position: absolute;
+    background-color: var(--CorPrimaria);
+    height: 60px;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items:center;
+    gap: 45px;
+    position: absolute;
+    right: 25px;
+    top: 20px;
+}
+
+p {
+    font-size: 1rem;
+    color:var(--CorTerciaria);
+    font-family: var(--Font);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p:hover {
+    color: var(--CorSecundaria);
+}
+
+@media screen and (min-width: 600px){
+    p {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    p {
+        font-size: 1.2rem;
+    }
+}
