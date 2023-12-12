@@ -1,0 +1,15 @@
+<section class="">
+    <h1 class="">Meus Projetos</h1>
+    <section class="project">
+        <section *ngFor="let project of projects">
+            <div class="">
+                <img [src]="project.img" alt="{{project.title}}" class="">
+                <h2>{{project.title}}</h2>
+                <p class="">{{project.details}}</p>
+                <div *ngFor="let skill of project.skills">
+                    <img [src]="skill.urlImg" alt="" class="">
+                </div>
+            </div>
+        </section>
+    </section>
+</section>

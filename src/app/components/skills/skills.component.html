@@ -1,0 +1,13 @@
+<section class="container">
+    <h1 class="title">Minhas Habilidades</h1>
+    <section class="skills">
+        <section *ngFor="let skill of data" class="itens">
+            <div class="circle one">
+                <div class="circleTwo one">
+                    <img [src]="skill.urlImg" alt="{{skill.name}}" class="img">
+                </div>
+                <span class="name">{{ skill.name }}</span>
+            </div>
+        </section>
+    </section>
+</section>

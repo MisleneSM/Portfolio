@@ -1,21 +1,30 @@
 header {
-    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
     background-color: var(--CorPrimaria);
     height: 60px;
     width: 100%;
 }
 
+header > img {
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+}
+
 nav {
     display: flex;
-    align-items:center;
-    gap: 45px;
-    position: absolute;
-    right: 25px;
-    top: 20px;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 20px;
+    gap: 35px;
 }
 
 p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     color:var(--CorTerciaria);
     font-family: var(--Font);
     font-weight: bold;
@@ -32,7 +41,34 @@ p:hover {
     }
 }
 
+@media screen and (min-width:990px){
+    header > img {
+        margin-left: 10px;
+        width: 40px;
+        height: 40px;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+}
+
 @media screen and (min-width: 1200px){
+    header{
+        height: 60px;
+    }
+
+    header > img {
+        margin-top: 7px;
+        margin-left: 15px;
+        width: 50px;
+        height: 50px;
+    }
+
+    nav {
+        gap: 45px;
+    }
+
     p {
         font-size: 1.2rem;
     }
