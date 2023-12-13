@@ -2,64 +2,6 @@ import { skills } from "./skills"
 
 export const projects = [
     {
-        img:'../../../assets/Burguer-MV.png',
-        title: 'Burguer MV',
-        details: 'Neste projeto foi desenvolvido um sistema de pedidos para uma hamburgueria utilizando o framework Angular',
-        skills: [
-            {
-                name: 'HTML',
-                urlImg: skills.find(skill => skill.name === 'HTML')?.urlImg || ''
-            },
-            {
-                name: 'CSS',
-                urlImg: skills.find(skill => skill.name === 'CSS')?.urlImg || ''
-            },
-            {
-                name: 'Angular',
-                urlImg: skills.find(skill => skill.name === 'Angular')?.urlImg || ''
-            },
-            {
-                name: 'TypeScript',
-                urlImg: skills.find(skill => skill.name === 'TypeScript')?.urlImg || ''
-            },
-            {
-                name: 'Git',
-                urlImg: skills.find(skill => skill.name === 'Git')?.urlImg || ''
-            },
-            {
-                name: 'GitHub',
-                urlImg: skills.find(skill => skill.name === 'GitHub')?.urlImg || ''
-            }
-        ],
-        link: 'https://burguer-m-v-two.vercel.app/',
-        repo: 'https://github.com/MisleneSM/Burguer-M-V.git'
-    },
-    {
-        img:'../../../assets/md-links.png',
-        title: 'MD Links',
-        details: 'Desenvolvido uma biblioteca para análise de arquivos Markdown, com ênfase na leitura, verificação de links e estatísticas associadas.',
-        skills: [
-            {
-                name: 'JavaScript',
-                urlImg: skills.find(skill => skill.name === 'JavaScript')?.urlImg || ''
-            },
-            {
-                name: 'NodeJs',
-                urlImg: skills.find(skill => skill.name === 'NodeJs')?.urlImg || ''
-            },
-            {
-                name: 'Git',
-                urlImg: skills.find(skill => skill.name === 'Git')?.urlImg || ''
-            },
-            {
-                name: 'GitHub',
-                urlImg: skills.find(skill => skill.name === 'GitHub')?.urlImg || ''
-            }
-        ],
-        link: 'https://github.com/MisleneSM/SAP010-md-links.git',
-        repo: 'https://github.com/MisleneSM/SAP010-md-links.git'
-    },
-    {
         img:'../../../assets/Food-review.jpg',
         title: 'Social Network',
         details: 'Desenvolvido uma rede social com foco na construção de uma Single-page Application (SPA) responsiva.',
@@ -99,6 +41,31 @@ export const projects = [
         ],
         link: 'https://food-review-mislene.web.app/',
         repo: 'https://github.com/MisleneSM/SAP010-social-network.git'
+    },
+    {
+        img:'../../../assets/md-links.png',
+        title: 'MD Links',
+        details: 'Desenvolvido uma biblioteca para análise de arquivos Markdown, com ênfase na leitura, verificação de links e estatísticas associadas.',
+        skills: [
+            {
+                name: 'JavaScript',
+                urlImg: skills.find(skill => skill.name === 'JavaScript')?.urlImg || ''
+            },
+            {
+                name: 'NodeJs',
+                urlImg: skills.find(skill => skill.name === 'NodeJs')?.urlImg || ''
+            },
+            {
+                name: 'Git',
+                urlImg: skills.find(skill => skill.name === 'Git')?.urlImg || ''
+            },
+            {
+                name: 'GitHub',
+                urlImg: skills.find(skill => skill.name === 'GitHub')?.urlImg || ''
+            }
+        ],
+        link: 'https://github.com/MisleneSM/SAP010-md-links.git',
+        repo: 'https://github.com/MisleneSM/SAP010-md-links.git'
     },
     {
         img:'../../../assets/Jogos Blog.png',
@@ -165,6 +132,39 @@ export const projects = [
         ],
         link: 'https://dio-buzz-feed-angular.vercel.app/',
         repo: 'https://github.com/MisleneSM/dio-buzzFeed-angular'
+    },
+    {
+        img:'../../../assets/Burguer-MV.png',
+        title: 'Burguer MV',
+        details: 'Neste projeto foi desenvolvido um sistema de pedidos para uma hamburgueria utilizando o framework Angular',
+        skills: [
+            {
+                name: 'HTML',
+                urlImg: skills.find(skill => skill.name === 'HTML')?.urlImg || ''
+            },
+            {
+                name: 'CSS',
+                urlImg: skills.find(skill => skill.name === 'CSS')?.urlImg || ''
+            },
+            {
+                name: 'Angular',
+                urlImg: skills.find(skill => skill.name === 'Angular')?.urlImg || ''
+            },
+            {
+                name: 'TypeScript',
+                urlImg: skills.find(skill => skill.name === 'TypeScript')?.urlImg || ''
+            },
+            {
+                name: 'Git',
+                urlImg: skills.find(skill => skill.name === 'Git')?.urlImg || ''
+            },
+            {
+                name: 'GitHub',
+                urlImg: skills.find(skill => skill.name === 'GitHub')?.urlImg || ''
+            }
+        ],
+        link: 'https://burguer-m-v-two.vercel.app/',
+        repo: 'https://github.com/MisleneSM/Burguer-M-V.git'
     },
     {
         img:'../../../assets/Pokemon.jpg',
