@@ -9,9 +9,7 @@
 .title{
     font-family: var(--Font);
     color: var(--CorSecundaria);
-    width: 250px;
     padding: 5px;
-    margin-left: 65px;
     font-size: 1.3rem;
     margin-top: 100px;
     margin-bottom: 50px;
@@ -57,7 +55,6 @@
 
 @media screen and (min-width: 600px){
     .title{
-        margin-left: 40px;
         font-size: 1.7rem;
     }
     
@@ -78,5 +75,74 @@
     .img {
         width: 90px;
         margin-top: 15px;
+    }
+}
+
+@media screen and (min-width: 1070px){
+    .title{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        margin-left: 40px;
+    }
+    
+    .skills {
+        display: grid;
+        grid-template-columns: 100px 100px 100px 100px;
+        gap: 90px;
+    }
+
+    .circle {
+        width: 150px;
+        height: 150px;
+    }
+
+    .one {
+        gap: 40px;
+    }
+    
+    .img {
+        width: 100px;
+        margin-top: 20px;
+    }
+
+    .circle .name {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 1320px){
+    .title{
+        margin-left: 0px;
+    }
+
+    .skills {
+        grid-template-columns: 100px 100px 100px 100px 100px;
+        gap: 80px;
+    }
+
+    .circle {
+        width: 120px;
+        height: 120px;
+    }
+
+    .one {
+        gap: 30px;
+    }
+    
+    .img {
+        width: 80px;
+    }
+
+    .circle .name {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width: 1500px){
+    .skills {
+        grid-template-columns: 100px 100px 100px 100px 100px 100px;
     }
 }

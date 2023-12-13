@@ -29,15 +29,7 @@ export const projects = [
             {
                 name: 'GitHub',
                 urlImg: skills.find(skill => skill.name === 'GitHub')?.urlImg || ''
-            },
-            {
-                name: 'Git',
-                urlImg: skills.find(skill => skill.name === 'Git')?.urlImg || ''
-            },
-            {
-                name: 'Studio Code',
-                urlImg: skills.find(skill => skill.name === 'Studio Code')?.urlImg || ''
-            },
+            }
         ],
         link: 'https://burguer-m-v-two.vercel.app/',
         repo: 'https://github.com/MisleneSM/Burguer-M-V.git'
@@ -45,7 +37,7 @@ export const projects = [
     {
         img:'../../../assets/md-links.png',
         title: 'MD Links',
-        details: 'Neste projeto foi desenvolvido uma biblioteca que lê arquivos Markdown através de uma ferramenta de linha de comando (CLI), tendo como propósito fazer a leitura dos arquivos, verificar a existência dos links e suas estatísticas.',
+        details: 'Desenvolvido uma biblioteca para análise de arquivos Markdown, com ênfase na leitura, verificação de links e estatísticas associadas.',
         skills: [
             {
                 name: 'JavaScript',
@@ -62,10 +54,6 @@ export const projects = [
             {
                 name: 'GitHub',
                 urlImg: skills.find(skill => skill.name === 'GitHub')?.urlImg || ''
-            },
-            {
-                name: 'Studio Code',
-                urlImg: skills.find(skill => skill.name === 'Studio Code')?.urlImg || ''
             }
         ],
         link: 'https://github.com/MisleneSM/SAP010-md-links.git',
@@ -74,7 +62,7 @@ export const projects = [
     {
         img:'../../../assets/Food-review.jpg',
         title: 'Social Network',
-        details: 'Neste projeto foi desenvolvido uma rede social, tendo como principal objetivo de aprendizagem construir uma Single-page Application (SPA) responsiva (com mais de uma tela/ página) na qual é possível ler e escrever dados.',
+        details: 'Desenvolvido uma rede social com foco na construção de uma Single-page Application (SPA) responsiva.',
         skills: [
             {
                 name: 'HTML',
@@ -107,19 +95,81 @@ export const projects = [
             {
                 name: 'GitHub',
                 urlImg: skills.find(skill => skill.name === 'GitHub')?.urlImg || ''
-            },
-            {
-                name: 'Studio Code',
-                urlImg: skills.find(skill => skill.name === 'Studio Code')?.urlImg || ''
             }
         ],
         link: 'https://food-review-mislene.web.app/',
         repo: 'https://github.com/MisleneSM/SAP010-social-network.git'
     },
     {
+        img:'../../../assets/Jogos Blog.png',
+        title: 'Jogos Blog',
+        details: 'Desenvolvido um mini projeto de Blog responsivo, aprimorando novos conhecimentos do Framework Angular.',
+        skills: [
+            {
+                name: 'HTML',
+                urlImg: skills.find(skill => skill.name === 'HTML')?.urlImg || ''
+            },
+            {
+                name: 'CSS',
+                urlImg: skills.find(skill => skill.name === 'CSS')?.urlImg || ''
+            },
+            {
+                name: 'Angular',
+                urlImg: skills.find(skill => skill.name === 'Angular')?.urlImg || ''
+            },
+            {
+                name: 'TypeScript',
+                urlImg: skills.find(skill => skill.name === 'TypeScript')?.urlImg || ''
+            },
+            {
+                name: 'Git',
+                urlImg: skills.find(skill => skill.name === 'Git')?.urlImg || ''
+            },
+            {
+                name: 'GitHub',
+                urlImg: skills.find(skill => skill.name === 'GitHub')?.urlImg || ''
+            }
+        ],
+        link: 'https://angular-blog-gold.vercel.app/',
+        repo: 'https://github.com/MisleneSM/dio-blog-angular'
+    },
+    {
+        img:'../../../assets/BuzzFeed.png',
+        title: 'BuzzFeed',
+        details: 'Desenvolvido um mini clone de BuzzFeed responsivo, tendo como objetivo aprimorar novos conhecimentos no Framework Angular.',
+        skills: [
+            {
+                name: 'HTML',
+                urlImg: skills.find(skill => skill.name === 'HTML')?.urlImg || ''
+            },
+            {
+                name: 'CSS',
+                urlImg: skills.find(skill => skill.name === 'CSS')?.urlImg || ''
+            },
+            {
+                name: 'Angular',
+                urlImg: skills.find(skill => skill.name === 'Angular')?.urlImg || ''
+            },
+            {
+                name: 'TypeScript',
+                urlImg: skills.find(skill => skill.name === 'TypeScript')?.urlImg || ''
+            },
+            {
+                name: 'Git',
+                urlImg: skills.find(skill => skill.name === 'Git')?.urlImg || ''
+            },
+            {
+                name: 'GitHub',
+                urlImg: skills.find(skill => skill.name === 'GitHub')?.urlImg || ''
+            }
+        ],
+        link: 'https://dio-buzz-feed-angular.vercel.app/',
+        repo: 'https://github.com/MisleneSM/dio-buzzFeed-angular'
+    },
+    {
         img:'../../../assets/Pokemon.jpg',
         title: 'Data Lovers - Pokemon',
-        details: 'Projeto criado pensando na experiência e necessidades dos usuários em interagir e buscar seus personagens favoritos do anime Pokémon e do jogo PokemonGO, tendo como objetivo construir uma página web que permita visualizar, filtrar, ordenar em ordem alfabética e realizar cálculos agregados do conjunto de dados dos personagens, fornecendo informações relevantes e uma interface intuitiva.',
+        details: 'Desenvolvido uma página web que possibilita visualização, filtragem, ordenação alfabética e cálculos agregados dos dados dos personagens do Pokemon.',
         skills: [
             {
                 name: 'HTML',
@@ -144,10 +194,6 @@ export const projects = [
             {
                 name: 'GitHub',
                 urlImg: skills.find(skill => skill.name === 'GitHub')?.urlImg || ''
-            },
-            {
-                name: 'Studio Code',
-                urlImg: skills.find(skill => skill.name === 'Studio Code')?.urlImg || ''
             }
         ],
         link: 'https://nicoletsingas.github.io/SAP010-data-lovers/',
@@ -156,7 +202,7 @@ export const projects = [
     {
         img:'../../../assets/card-validation.png',
         title: 'Card Validation',
-        details: 'Neste projeto foi desenvolvido um site de produtos de maquiagem com intuito de realizar validações de cartão de crédito de acordo com a compra do cliente.',
+        details: 'Neste projeto foi desenvolvido um site com intuito de realizar validações de cartão de crédito.',
         skills: [
             {
                 name: 'HTML',
@@ -181,10 +227,6 @@ export const projects = [
             {
                 name: 'GitHub',
                 urlImg: skills.find(skill => skill.name === 'GitHub')?.urlImg || ''
-            },
-            {
-                name: 'Studio Code',
-                urlImg: skills.find(skill => skill.name === 'Studio Code')?.urlImg || ''
             }
         ],
         link: 'https://mislenesm.github.io/SAP010-card-validation/',
@@ -214,13 +256,9 @@ export const projects = [
             {
                 name: 'GitHub',
                 urlImg: skills.find(skill => skill.name === 'GitHub')?.urlImg || ''
-            },
-            {
-                name: 'Studio Code',
-                urlImg: skills.find(skill => skill.name === 'Studio Code')?.urlImg || ''
             }
         ],
         link: 'https://jogo-da-velha-rose.vercel.app/',
         repo: 'https://github.com/MisleneSM/Jogo-da-Velha.git'
-    },
+    }
 ]
