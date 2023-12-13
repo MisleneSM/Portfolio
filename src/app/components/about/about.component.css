@@ -10,6 +10,7 @@
     width: 200px;
     height: 250px;
     border-radius: 50%;
+    box-shadow: 0 0 10px var(--CorPrimaria); /* Ajuste a cor e a intensidade conforme necessário */
 
 }
 

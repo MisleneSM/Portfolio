@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .container > .title {
@@ -30,16 +30,17 @@
 
 .circle {
     width: 270px;
-    height: 400px;
+    height: 430px;
     border: 6px solid var(--CorPrimaria);
     border-radius: 30px;
     background-image: linear-gradient(to left, var(--CorQuartenaria), var(--CorTerciaria));
     background-size: 500% 100%;
     animation: moveGradient 2s infinite alternate;
+    box-shadow: 0 0 5px var(--CorPrimaria); 
 }
 
 .img {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 17px;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -57,7 +58,8 @@
 }
 
 .details {
-    width: 210px;
+    font-family: var(--Font);
+    width: 230px;
     color: var(--CorSecundaria);
     margin-left: 18px;
     margin-bottom: 20px;
@@ -76,4 +78,126 @@
 
 .imgSkills {
     width: 25px;
+    margin-bottom: 35px;
+}
+
+.btnProject {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.btnProject > a {
+    font: bold;
+    color: var(--CorTerciaria);
+    font-family: var(--Font);
+    text-decoration: none;
+    text-align: center;
+    background-color: var(--CorPrimaria);
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.btnProject > a:hover {
+    background-color: var(--CorSecundaria);
+}
+
+@media screen and (min-width: 992px){
+    .container > .title {
+        font-size: 1.7rem;
+    }
+
+    .project {
+        display: grid;
+        grid-template-columns: 100px 100px;
+        gap: 30px 250px;
+    }
+}
+
+@media screen and (min-width: 1070px){
+    .circle {
+        width: 300px;
+        height: 450px;
+    }
+    
+    .img {
+        margin-left: 19px;
+        width: 250px;
+        height: 130px;
+    }
+    
+    .circle > h2 {
+        font-size: 1.3rem;
+    }
+    
+    .details {
+        font-size: 1rem;
+        width: 260px;
+    }
+    
+    .imgSkills {
+        width: 28px;
+        margin-bottom: 30px;
+    }
+      
+    .btnProject > a {
+        width: 90px;
+        height: 35px;
+        padding: 6px;
+    }
+}
+
+@media screen and (min-width: 1320px){
+    .details {
+        margin-bottom: 25px;
+    }
+
+    .project {
+        grid-template-columns: 100px 100px 100px;
+    }
+}
+
+@media screen and (min-width: 1500px){
+    .circle {
+        width: 250px;
+        height: 400px;
+        
+    }
+    
+    .img {
+        margin-left: 15px;
+        width: 210px;
+    }
+    
+    .circle > h2 {
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+    }
+    
+    .details {
+        font-size: 0.9rem;
+        width: 210px;
+        margin-bottom: 12px;
+    }
+    
+    .imgSkills {
+        width: 23px;
+        margin-bottom: 20px;
+    }
+      
+    .btnProject > a {
+        width: 80px;
+        height: 30px;
+        padding: 4px;
+    }
+
+    .project {
+        gap: 30px 220px;
+        grid-template-columns: 100px 100px 100px 100px;
+    }
 }

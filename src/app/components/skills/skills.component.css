@@ -28,6 +28,7 @@
     background-image: linear-gradient(to left, var(--CorPrimaria), var(--CorSecundaria));
     background-size: 500% 100%;
     animation: moveGradient 2s infinite alternate;
+    box-shadow: 0 0 5px var(--CorPrimaria); 
 }
 
 .one {

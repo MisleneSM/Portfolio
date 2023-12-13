@@ -1,23 +1,19 @@
 <section class="container">
     <h1 class="title">Meus Projetos</h1>
     <section class="project">
-        <section *ngFor="let project of projects" class="itens">
+        <section *ngFor="let project of projectsData" class="itens">
             <div class="circle">
                 <img [src]="project.img" alt="{{project.title}}" class="img">
                 <h2>{{project.title}}</h2>
                 <p class="details">{{project.details}}</p>
                 <section class="skillsImg">
                     <div *ngFor="let skill of project.skills" class="nameSkills">
-                        <img [src]="skill.urlImg" alt="" class="imgSkills">
+                        <img [src]="skill.urlImg" class="imgSkills">
                     </div>
                 </section>
                 <section class="btnProject">
-                    <button>
-                        <a>Deploy</a>
-                    </button>
-                    <button>
-                        <a>Repo</a>
-                    </button>
+                    <a [href]="project.link">Deploy</a>
+                    <a [href]="project.repo">Repo</a>
                 </section>
             </div>
         </section>

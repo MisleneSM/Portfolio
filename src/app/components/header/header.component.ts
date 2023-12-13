@@ -7,9 +7,9 @@ import { ViewportScroller } from '@angular/common';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
- constructor (private viewportScroller: ViewportScroller) {}
+ constructor (private viewport: ViewportScroller) {}
 
  clickScroll(id: string){
-  this.viewportScroller.scrollToAnchor(id);
+  this.viewport.scrollToAnchor(id);
  }
 }

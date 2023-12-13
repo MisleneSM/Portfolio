@@ -1,26 +1,29 @@
-.flex {
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.container {
     height: 25px;
     width: 100%;
     padding: 15px 0;
     background-color: var(--CorPrimaria);
     font-family: var(--Font);
     text-align: center;
-    bottom: 0;
-    right: 0;
-    left: 0;
 }
 
-p a {
+p > a {
     color: var(--CorTerciaria);
     text-decoration: none;
 }
 
-p a:hover {
+p > a:hover {
     color: var(--CorSecundaria);
+}
+
+@media screen and (min-width: 992px){
+    .container {
+        font-size: 1rem;
+        height: 25px;
+        width: 100%;
+        padding: 15px 0;
+    }
 }

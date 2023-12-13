@@ -7,5 +7,5 @@ import { projects } from 'src/app/service/projects';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent {
-  projects = projects;
+  projectsData = projects;
 }
