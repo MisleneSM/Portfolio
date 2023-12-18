@@ -161,6 +161,10 @@ export const projects = [
             {
                 name: 'GitHub',
                 urlImg: skills.find(skill => skill.name === 'GitHub')?.urlImg || ''
+            },
+            {
+                name: 'Insomnia',
+                urlImg: '../assets/insomnia.png'
             }
         ],
         link: 'https://burguer-m-v-two.vercel.app/',

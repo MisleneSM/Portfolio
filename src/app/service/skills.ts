@@ -44,10 +44,6 @@ export const skills = [
         urlImg: '../../../assets/github.png'
     },
     {
-        name: 'Insomnia',
-        urlImg: '../../../assets/insomnia.png'
-    },
-    {
         name: 'Studio Code',
         urlImg: '../../../assets/studio code.png'
     },
