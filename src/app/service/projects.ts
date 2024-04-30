@@ -21,6 +21,10 @@ export const projects = [
             {
                 name: 'GitHub',
                 urlImg: skills.find(skill => skill.name === 'GitHub')?.urlImg || ''
+            },
+            {
+                name: 'IntelliJ',
+                urlImg: skills.find(skill => skill.name === 'IntelliJ')?.urlImg || ''
             }
         ],
         link: 'https://github.com/MisleneSM/conversorDeMoedas',
