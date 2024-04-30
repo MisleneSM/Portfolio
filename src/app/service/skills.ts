@@ -50,5 +50,17 @@ export const skills = [
     {
         name: 'Photoshop',
         urlImg: '../../../assets/photoshop.png'
+    },
+    {
+        name: 'Java',
+        urlImg: '../../../assets/java.png'
+    },
+    {
+        name: 'Spring',
+        urlImg: '../../../assets/spring.png'
+    },
+    {
+        name: 'IntelliJ',
+        urlImg: '../../../assets/intellij.png'
     }
 ]
