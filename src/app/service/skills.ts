@@ -56,10 +56,6 @@ export const skills = [
         urlImg: '../../../assets/java.png'
     },
     {
-        name: 'Spring',
-        urlImg: '../../../assets/spring.png'
-    },
-    {
         name: 'IntelliJ',
         urlImg: '../../../assets/intellij.png'
     }
