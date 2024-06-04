@@ -2,7 +2,7 @@ import { skills } from "./skills"
 
 export const projects = [
     {
-        img:'../../../assets/literAlura.png',
+        img:'../../../assets/literAlura.jpg',
         title: 'LiterAlura',
         details: 'Desenvolvido um catálogo de livros, realizando solicitações a uma API, manipulando dados JSON, e armazenando em um banco de dados.',
         skills: [
