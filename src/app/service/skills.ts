@@ -58,5 +58,13 @@ export const skills = [
     {
         name: 'IntelliJ',
         urlImg: '../../../assets/intellij.png'
+    },
+    {
+        name: "PostgreeSQL",
+        urlImg: '../../../assets/postgreesql.png'
+    },
+    {
+        name: "Spring",
+        urlImg: "../../../assets/spring.png"
     }
 ]

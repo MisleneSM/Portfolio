@@ -3,6 +3,43 @@ import { skills } from "./skills"
 export const projects = [
     {
         img:'../../../assets/conversorMoeda.png',
+        title: 'LiterAlura',
+        details: 'Desenvolvido um catálogo de livros, realizando solicitações a uma API, manipulando dados JSON, e armazenando em um banco de dados.',
+        skills: [
+            {
+                name: 'Java',
+                urlImg: skills.find(skill => skill.name === 'Java')?.urlImg || ''
+            },
+            {
+                name: 'Trello',
+                urlImg: skills.find(skill => skill.name === 'Trello')?.urlImg || ''
+            },
+            {
+                name: 'Git',
+                urlImg: skills.find(skill => skill.name === 'Git')?.urlImg || ''
+            },
+            {
+                name: 'GitHub',
+                urlImg: skills.find(skill => skill.name === 'GitHub')?.urlImg || ''
+            },
+            {
+                name: 'IntelliJ',
+                urlImg: skills.find(skill => skill.name === 'IntelliJ')?.urlImg || ''
+            },
+            {
+                name: "PostgreeSQL",
+                urlImg: skills.find(skill => skill.name === "PostgreeSQL")?.urlImg || ''
+            },
+            {
+                name: "Spring",
+                urlImg: skills.find(skill => skill.name === "Spring")?.urlImg || ''
+            }
+        ],
+        link: 'https://github.com/MisleneSM/literAlura-desadio',
+        repo: 'https://github.com/MisleneSM/literAlura-desafio'
+    },
+    {
+        img:'../../../assets/conversorMoeda.png',
         title: 'Conversor de Moedas',
         details: 'Desenvolvido um Conversor de Moedas trabalhando com ferramentas do Java e aprendendo a fazer requisições de uma API.',
         skills: [
