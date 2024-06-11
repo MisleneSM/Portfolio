@@ -35,7 +35,7 @@ export const projects = [
                 urlImg: skills.find(skill => skill.name === "Spring")?.urlImg || ''
             }
         ],
-        link: 'https://github.com/MisleneSM/literAlura-desadio',
+        link: 'https://github.com/MisleneSM/literAlura-desafio',
         repo: 'https://github.com/MisleneSM/literAlura-desafio'
     },
     {
